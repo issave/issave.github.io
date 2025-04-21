@@ -4,7 +4,7 @@
     border-style: double;
     border-radius: 10px;
     margin: auto;
-    width: 84%;
+    width: 110%;
 
 }
 
@@ -76,14 +76,15 @@ h2 {
     color: #e40707;
 }
 
-@media (max-width: 600px){
-  .nav {
-    height: 800%;
-    background-image: linear-gradient(to right, #572c2c, #20201d);
-    border-style: double;
-    border-radius: 10px;
+@media screen and (max-width: 800px){
+    .nav{
+        height: 1900px;
+    }
+    .music {
     margin: auto;
     width: 84%;
+        flex-wrap: wrap;
+        gap: 10px;
 
 }
 }
